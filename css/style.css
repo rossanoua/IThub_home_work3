@@ -89,12 +89,53 @@ details li:nth-child(odd){
     background-color: #ccc;
 }
 
-article{
-    width:750px;
+article {
+    margin: 0 auto;
+    padding: 10px;
+    width: 732px;
     float: right;
 }
 
 .map{
     width:412px;
     margin:30px auto;
+
+}
+
+.clear{
+    width:100%;
+    clear: both;
+}
+
+.first_section {
+    height: 113px;
+    background-color: #155DED;
+}
+
+.first_section{
+    color: #ede115;
+}
+
+.first_section h1 {
+    margin: 32px 0 0 47px;
+    float: left;
+    font-size: 38px;
+    font-weight: lighter;
+}
+
+.first_section p {
+    margin: -10px 0 0 0;
+}
+
+.first_section address {
+    float: right;
+    font-size: 36px;
+    margin: 16px 59px 0 0;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.second_section {
+    height: 108px;
+    background-color: #ede115;
 }
