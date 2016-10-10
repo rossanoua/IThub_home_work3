@@ -1,6 +1,7 @@
 header, nav, footer, .main{
     width: 1053px;
     margin: 0 auto;
+    font-family: 'Roboto';
 }
 
 header {
@@ -12,7 +13,6 @@ header {
 header h1 {
     margin: 0px 0px 0px 18px;
     padding: 61px 0px 0px 0px;
-    font-family: 'Roboto';
     font-size: 43px;
     font-weight: 100;
     float: left;
@@ -34,19 +34,30 @@ nav {
 
 nav ul {
     float: right;
-    margin: 33px 0 0 0;
+    margin: 32px 32px 0 0;
 }
 
 nav li {
-    margin: 50px 17px 0 0;
+    margin: 50px 37px 0 0;
     padding: 0;
     display: inline;
     font-weight: bold;
     font-size: 31px;
+    letter-spacing: -1px;
 }
 
-.main{
+nav li:last-child{
+    margin-right:0;
+}
 
+nav a{
+    text-decoration: none;
+}
+
+/*main*/
+
+.main{
+    height:100%;
 }
 
 aside{
@@ -76,4 +87,14 @@ details li {
 
 details li:nth-child(odd){
     background-color: #ccc;
+}
+
+article{
+    width:750px;
+    float: right;
+}
+
+.map{
+    width:412px;
+    margin:30px auto;
 }
